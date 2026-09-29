@@ -1,0 +1,17 @@
+{
+  "name": "Blue Ridge Brutal Training",
+  "short_name": "Brutal 100",
+  "description": "Personal training tracker for the Blue Ridge Brutal 100-mile ride.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f7f9",
+  "theme_color": "#17365d",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
