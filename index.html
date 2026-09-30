@@ -34,6 +34,12 @@
 
         <div class="session-grid" id="sessionGrid"></div>
 
+        <button class="guide-launch" id="guideBtn" type="button">
+          <span class="guide-launch-icon">👀</span>
+          <span class="guide-launch-copy"><strong>Visual Exercise Guide</strong><small>See setup, movement and form cues for every strength exercise.</small></span>
+          <span class="guide-launch-arrow">›</span>
+        </button>
+
         <div class="card" id="recentCard">
           <div class="section-head">
             <h3>Recent training</h3>
@@ -41,6 +47,19 @@
           </div>
           <div id="recentList" class="list"></div>
         </div>
+      </section>
+
+      <section class="screen" id="guideScreen">
+        <div class="section-head">
+          <div><p class="eyebrow">YOUR GYM WORKOUT GUIDE</p><h2>Visual Exercise Guide</h2></div>
+          <button class="text-btn" type="button" data-nav="today">Done</button>
+        </div>
+        <p class="muted guide-intro">Use this at the gym when you need a quick reminder of setup, movement and the one cue that matters most.</p>
+        <div class="guide-toggle" role="group" aria-label="Choose strength workout">
+          <button class="guide-toggle-btn active" type="button" data-guide-group="A">Strength A</button>
+          <button class="guide-toggle-btn" type="button" data-guide-group="B">Strength B</button>
+        </div>
+        <div id="guideList" class="guide-list"></div>
       </section>
 
       <section class="screen" id="planScreen">
